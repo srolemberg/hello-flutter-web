@@ -52,6 +52,8 @@ gen-external-apklibs
 .pub/
 coverage/
 lib/generated_plugin_registrant.dart
+lib/generated
+lib/generated/*
 # For library packages, don’t commit the pubspec.lock file.
 # Regenerating the pubspec.lock file lets you test your package against the latest compatible versions of its dependencies.
 # See https://dart.dev/guides/libraries/private-files#pubspeclock
@@ -108,6 +110,8 @@ lib/generated_plugin_registrant.dart
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+.idea
+.idea/*
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
